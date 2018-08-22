@@ -1,0 +1,35 @@
+{
+    "name": "mattdimu-recommendations-extension-pack",
+    "displayName": "MattDiMu Recommendations (Extension Pack)",
+    "description": "My personal recommendation list.",
+    "version": "1.0.0",
+    "publisher": "mattdimu",
+    "repository": "MattDiMu/mattdimu-recommendations-extension-pack",
+    "license": "MIT",
+    "homepage": "https://github.com/MattDiMu/mattdimu-recommendations-extension-pack",
+    "engines": {
+        "vscode": "^1.26.0"
+    },
+    "categories": [
+        "Keymaps"
+    ],
+    "contributes": {
+        "keybindings": [
+            {
+                "key": "ctrl+.",
+                "command": "workbench.action.showCommands"
+            }
+        ]
+    },
+    "extensionPack": [
+        "roscop.activefileinstatusbar",
+        "hookyqr.beautify",
+        "msjsdiag.debugger-for-chrome",
+        "editorconfig.editorconfig",
+        "dbaeumer.vscode-eslint",
+        "eamodio.gitlens",
+        "alefragnani.project-manager",
+        "shinnn.stylelint",
+        "eg2.tslint"
+    ]
+}
